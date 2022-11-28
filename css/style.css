@@ -54,6 +54,7 @@ ul{
     border: none;
     width: 5.5rem;
     height: 1.6rem;
+    margin: .7rem;
 }
 
 .main-img{
@@ -72,11 +73,12 @@ h2{
 }
 
 .top-mid{
+    padding: 3rem;
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    
+    gap: 7rem;
 }
 
 .img-text p {
@@ -85,9 +87,7 @@ h2{
 
 .img-text img{
     max-width: 200px;
-    border-style: solid;
-    border-color: #3882f6;
-    border-width: .2rem;
+    border: .2rem solid #1f2937;
     border-radius: 1rem;
 }
 
