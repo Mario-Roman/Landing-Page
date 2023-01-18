@@ -25,6 +25,10 @@ ul{
     gap: 0px 30px;
 }
 
+.links-top:hover{
+    text-decoration: underline;
+}
+
 .header{
     Background-color: #1f2937;
     display: flex;
@@ -55,6 +59,11 @@ ul{
     width: 5.5rem;
     height: 1.6rem;
     margin: .7rem;
+}
+
+.button-top:hover{
+    color: #3882f6;
+    background-color: #F9FAF8;
 }
 
 .main-img{
@@ -138,6 +147,11 @@ h2{
     border-radius: 7px;
     width: 5.5rem;
     height: 1.6rem;
+}
+
+.button-bottom:hover{
+    color: #3882f6;
+    background-color: #F9FAF8;
 }
 
 footer{
